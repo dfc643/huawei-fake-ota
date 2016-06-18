@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+  <component name="TCPU" version="抱歉不支持您的设备" />
+  <cleardata-flag>false</cleardata-flag>
+  <romsurvey-flag>true</romsurvey-flag>
+  <notify-level>40</notify-level>
+  <point-version>false</point-version>
+  <force-app-upgrade>false</force-app-upgrade>
+  <force-app-upgrade-list>
+  </force-app-upgrade-list>
+  <default-language name="zh-cn">2052</default-language>
+  <language code="2052" name="zh-cn">
+    <features module="" type="header">
+      <feature>亲爱的用户，本信息由华为 OTA 升级服务器模拟器生成。服务器未找到与您手机匹配的固件，如有问题请在花粉论坛私信 huafans0174967555</feature>
+    </features>
+    <features module="【注意】">
+      <feature>未找到与您手机匹配的固件</feature>
+    </features>
+    <features module="【不支持】" type="end">
+      <feature>服务器未找到与您手机匹配的固，如果遇到任何问题，您可以访问“手机服务”应用或“花粉俱乐部（http://club.huawei.com）”寻求支持。</feature>
+    </features>
+  </language>
+</root>

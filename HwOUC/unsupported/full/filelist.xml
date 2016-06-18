@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
 <component>
 <name>TCPU</name>
@@ -10,22 +10,22 @@
 <spath>changelog.xml</spath>
 <dpath>changelog.xml</dpath>
 <operation>c</operation>
-<md5>hwouc_changelog_md5</md5>
-<size>hwouc_changelog_size</size>
+<md5>9FE964DB242F4753BC90C886F3053489</md5>
+<size>1127</size>
 </file>
 <file>
 <spath>precheck-script</spath>
 <dpath>precheck-script</dpath>
 <operation>c</operation>
-<md5>hwouc_precheck_md5</md5>
-<size>hwouc_precheck_size</size>
+<md5>D41D8CD98F00B204E9800998ECF8427E</md5>
+<size>0</size>
 </file>
 <file>
 <spath>update.zip</spath>
 <dpath>update.zip</dpath>
 <operation>c</operation>
-<md5>hwouc_update_md5</md5>
-<size>hwouc_update_size</size>
+<md5>D41D8CD98F00B204E9800998ECF8427E</md5>
+<size>562949953421312000</size>
 </file>
 </files>
 </root>
