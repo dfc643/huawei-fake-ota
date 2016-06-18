@@ -1,9 +1,11 @@
-Fake Huawei OTA Server
+Fake Huawei OTA (Local Side)
 ======
 
 A fake server program of Huawei android phone OTA service. Using fake OTA server is more eaiser to create and push a new version OS to Huawei androd phone.
 
 Fake Huawei OTA server allowed user push a custom or official to any Huawei Android phone. With use of ```huawei-firmware-scanner``` can push unpublished official firmware to Huawei Android phone.
+
+Notice: If you're finding the version of **server side** please click [here](https://github.com/dfc643/huawei-fake-ota/tree/server).
 
 How to use it?
 -----
