@@ -1,0 +1,12 @@
+{
+    "status":"0",
+    "autoPollingCycle":"1",
+    "components":[{
+        "name":"hwouc_dest_version",
+        "version":"hwouc_dest_version",
+        "versionID":"66666",
+        "description":"受限发布: [更新包] 当前版本至 hwouc_dest_version  &#40;2016/1/1&#41;",
+        "createTime":"2016-01-01T00:00:00+0000",
+        "url":"http://query.hicloud.com/"
+    }]
+}
