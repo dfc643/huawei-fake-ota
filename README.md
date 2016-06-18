@@ -8,14 +8,14 @@ Fake Huawei OTA server allowed user push a custom or official to any Huawei Andr
 How to use it?
 -----
 
-1. Rename and copy Huawei device firmware to Fake OTA program *root directory* with name ```update.zip```.  
+1. Rename and copy Huawei device firmware to Fake OTA program **root directory** with name ```update.zip```.  
 2. Double click on ```Start-OTA.bat``` to start Fake OTA program.  
 3. Following the Fake OTA program's guide to build a firmware information.  
 4. Confirm and start NGINX and DNS server by Fake OTA program.  
 5. Modify Huawei Android phone DNS server to Fake OTA server's IP address.  
 6. Checking update on Huawei Android phone and update.
 
-More usage information please look at: [Huawei Funs Club Post](http://club.huawei.com/forum.php?mod=viewthread&tid=8759311)<small>Chinese</small>.
+More usage information please look at: [Huawei FunsClub](http://club.huawei.com/forum.php?mod=viewthread&tid=8759311) .
 
 License
 -----
@@ -80,6 +80,6 @@ SOFTWARE.
 Copyright
 -----
 
-- *[NGINX](https://github.com/nginx/nginx):* [NGINX License](http://nginx.org/LICENSE)  
-- *[DNSAgent](https://github.com/stackia/DNSAgent):* MIT License  
-- *iconv&sed:* GNU License  
+- **NGINX:** [NGINX License](http://nginx.org/LICENSE)  
+- **DNSAgent:** [MIT License](https://github.com/stackia/DNSAgent)  
+- **iconv&sed:** GNU License  
