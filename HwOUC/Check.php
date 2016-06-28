@@ -28,12 +28,21 @@ switch(substr($jsonData->rules->FirmWare, -4 , 4)) {
             default:  die (deviceQuery(-1));
         }
     
-    // B556 downgrade to B231
+    // B556 to B561 (test-mode)
     case 'B556':
         switch($jsonData->rules->DeviceName) {
-            case 'CHM-UL00': die (deviceQuery(0, '231', '48294', 1));
-            case 'CHM-TL00': die (deviceQuery(1, '231', '48303', 1));
-            case 'CHM-TL00H': die (deviceQuery(2, '425', '48297', 1));
+            case 'CHM-UL00': die (deviceQuery(0, '561', '53670', 2));
+            case 'CHM-TL00': die (deviceQuery(1, '561', '53702', 2));
+            case 'CHM-TL00H': die (deviceQuery(2, '561', '53682', 2));
+            default:  die (deviceQuery(-1));
+        }
+    
+    // B561 downgrade to B231
+    case 'B561':
+        switch($jsonData->rules->DeviceName) {
+            //case 'CHM-UL00': die (deviceQuery(0, '561', '53675', 1));
+            //case 'CHM-TL00': die (deviceQuery(1, '231', '48303', 1));
+            //case 'CHM-TL00H': die (deviceQuery(2, '425', '48297', 1));
             default:  die (deviceQuery(-1));
         }
     
@@ -44,7 +53,7 @@ switch(substr($jsonData->rules->FirmWare, -4 , 4)) {
 }
 
 // Return update server link to OUC
-function deviceQuery($devType, $cuName = 'unset', $cuVer = '-1', $downgrade = 0) {
+function deviceQuery($devType, $cuName = 'unset', $cuVer = '-1', $grademode = 0) {
     switch($devType) {    
         case 0:
             $fwName = 'CHM-UL00C00B'.$cuName;
@@ -76,8 +85,16 @@ function deviceQuery($devType, $cuName = 'unset', $cuVer = '-1', $downgrade = 0)
             break;
     }
     
-    if($downgrade == 1) {
-        $fwName = "【降级到】".$fwName." (实验功能)";
+    // Is downgrade or upgrade to unstable?
+    switch($grademode) {
+        case 1: $fwName = "【降级到】".$fwName." (实验功能)"; break;
+        case 2: $fwName = $fwName." (暂不可降级)"; break;
+    }
+    
+    // If does not support how to do?
+    if($devType == -1) {
+		return '{"status":"1"}';
+		die();
     }
     
     $jsonData = '{
