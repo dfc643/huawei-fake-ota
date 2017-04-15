@@ -1,0 +1,66 @@
+{{ @VI('hwota/_header', array('title'=>'{{ $title }}')); }}
+<div id="step2">
+<form method="post" action="?step=2.1">
+<div class="title">固件设置</div>
+<style>
+    td {height: 30px;}
+</style>
+<div class="content">
+    <table>
+        <tr>
+            <td width="100px">目标版本</td>
+            <td><input type="text" name="version" style="width:260px"/></td>
+        </tr>
+        <tr>
+            <td>升级方式</td>
+            <td>
+                <input type="radio" name="from" value="local" checked="checked" onclick="localPath.style.display='';internetPath.style.display='none'" /> 电脑 &nbsp;&nbsp;
+                <input type="radio" name="from" value="remote" onclick="localPath.style.display='none';internetPath.style.display=''" /> 互联网
+            </td>
+        </tr>
+        <tr>
+            <td>当前版本</td>
+            <td>
+                <input type="radio" name="emui" value="4" /> 3.x, 4.x &nbsp;&nbsp;
+                <input type="radio" name="emui" value="5" checked="checked"/> 5.x 或更高
+            </td>
+        </tr>
+        <tr id="localPath">
+            <td>固件复制到</td>
+            <td>{{ @echo dirname(dirname(dirname(__FILE__))); }}</td>
+        </tr>
+        <tr id="internetPath" style="display:none">
+            <td>互联网链接</td>
+            <td><input type="text" name="remotepath" style="width:260px" /></td>
+        </tr>
+    </table>
+    <br/>
+    <small>例子关于 "目标版本" : CHM-UL01C00B570</small><br/>
+    <small>例子关于 "互联网" : http://update.hicloud.com:8180/TDS/data/files/p3/s15/G1276/g104/v61323/f1/</small>
+</div>
+<div class="buttons">
+    <input type="button" onclick="window.location.href='?step=1'" value="&lt; 上一步" />
+    <input type="submit" value="下一步 &gt;" onclick="step2.style.display='none';step21.style.display='';" />
+    <input type="button" onclick="window.location.href='?step=-1'" value="取消" />
+</div>
+</form>
+</div>
+<div id="step21" style="display:none">
+<div class="title">升级中</div>
+<style>
+    .status {margin-top: 150px; margin-bottom: 5px;}
+</style>
+<div class="content">
+    <p>请稍等片刻，我们正在做:</p>
+    <ul>
+        <li>生成响应数据 ...</li>
+        <li>计算固件校验和 ...</li>
+        <li>生成固件文件列表 ...</li>
+        <li>设置并启用虚拟升级 ...</li>
+    </ul>
+</div>
+<div class="buttons">
+    <input type="button" value="请稍候 ..." disabled="disabled"/>
+</div>
+</div>
+{{ @VI('hwota/_footer'); }}

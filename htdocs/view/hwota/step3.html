@@ -1,0 +1,15 @@
+{{ @VI('hwota/_header', array('title'=>'{{ $title }}')); }}
+<div class="title">Please set in Phone</div>
+<div class="content">
+    <p>Please set following settings in Phone:</p>
+    <ul>
+        <li>DNS 1: {{ $localip }}</li>
+        <li>DNS 2: {{ $localip }}</li>
+        <li>Check Updates in Phone</li>
+    </ul>
+    <p style="color:red; font-weight: bold;">PLEASE DONOT CLOSE WINDOW UNTIL FINISH UPDATE !!!</p>
+</div>
+<div class="buttons">
+    <input type="button" onclick="window.location.href='?step=-1'" value="I'm finished update"/>
+</div>
+{{ @VI('hwota/_footer'); }}

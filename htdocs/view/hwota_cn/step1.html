@@ -1,0 +1,21 @@
+{{ @VI('hwota/_header', array('title'=>'{{ $title }}')); }}
+<div class="title">欢迎</div>
+<div class="content">欢迎使用华为虚拟升级服务器
+<textarea readonly="true">
+***********************************************************
+           Welcome to: Huawei Fake OTA Server
+***********************************************************
+The software is based on Huawei OTA data simulation.
+Copyright: Related data copyright belongs to Huawei all.
+
+1. 请将电脑与手机置于同一台路由器下
+2. 请暂时禁用您的防火墙或者全部允许通过
+3. 请将固件复制到以下目录：
+    {{ @echo dirname(dirname(dirname(__FILE__)))."\n"; }}
+4. 最后根据提示完成</textarea>
+</div>
+<div class="buttons">
+    <input type="button" onclick="window.location.href='?step=2'" value="同意" />
+    <input type="button" onclick="window.location.href='?step=-1'" value="拒绝" />
+</div>
+{{ @VI('hwota/_footer'); }}

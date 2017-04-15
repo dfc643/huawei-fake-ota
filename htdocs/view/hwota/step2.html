@@ -1,0 +1,66 @@
+{{ @VI('hwota/_header', array('title'=>'{{ $title }}')); }}
+<div id="step2">
+<form method="post" action="?step=2.1">
+<div class="title">Firmware</div>
+<style>
+    td {height: 30px;}
+</style>
+<div class="content">
+    <table>
+        <tr>
+            <td width="100px">Dest. Version</td>
+            <td><input type="text" name="version" style="width:260px"/></td>
+        </tr>
+        <tr>
+            <td>Update From</td>
+            <td>
+                <input type="radio" name="from" value="local" checked="checked" onclick="localPath.style.display='';internetPath.style.display='none'" /> Computer &nbsp;&nbsp;
+                <input type="radio" name="from" value="remote" onclick="localPath.style.display='none';internetPath.style.display=''" /> Internet
+            </td>
+        </tr>
+        <tr>
+            <td>Current EMUI</td>
+            <td>
+                <input type="radio" name="emui" value="4" /> 3.x, 4.x &nbsp;&nbsp;
+                <input type="radio" name="emui" value="5" checked="checked"/> 5.x or above
+            </td>
+        </tr>
+        <tr id="localPath">
+            <td>Copy Zips to</td>
+            <td>{{ @echo dirname(dirname(dirname(__FILE__))); }}</td>
+        </tr>
+        <tr id="internetPath" style="display:none">
+            <td>Internet Path</td>
+            <td><input type="text" name="remotepath" style="width:260px" /></td>
+        </tr>
+    </table>
+    <br/>
+    <small>Example of "Dest. Version" : CHM-UL01C00B570</small><br/>
+    <small>Example of "Internet Path" : http://update.hicloud.com:8180/TDS/data/files/p3/s15/G1276/g104/v61323/f1/</small>
+</div>
+<div class="buttons">
+    <input type="button" onclick="window.location.href='?step=1'" value="&lt; Back" />
+    <input type="submit" value="Next &gt;" onclick="step2.style.display='none';step21.style.display='';" />
+    <input type="button" onclick="window.location.href='?step=-1'" value="Cancel" />
+</div>
+</form>
+</div>
+<div id="step21" style="display:none">
+<div class="title">In Progress</div>
+<style>
+    .status {margin-top: 150px; margin-bottom: 5px;}
+</style>
+<div class="content">
+    <p>Please wait for a moment, we are working:</p>
+    <ul>
+        <li>Generating Response Json ...</li>
+        <li>Calculating the Firmware Checksum ...</li>
+        <li>Generating File List ...</li>
+        <li>Setting up Fake OTA Server ...</li>
+    </ul>
+</div>
+<div class="buttons">
+    <input type="button" value="Please Wait ..." disabled="disabled"/>
+</div>
+</div>
+{{ @VI('hwota/_footer'); }}

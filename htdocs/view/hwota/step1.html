@@ -1,0 +1,21 @@
+{{ @VI('hwota/_header', array('title'=>'{{ $title }}')); }}
+<div class="title">Welcome</div>
+<div class="content">Welcome to Huawei Fake OTA server!
+<textarea readonly="true">
+***********************************************************
+           Welcome to: Huawei Fake OTA Server
+***********************************************************
+The software is based on Huawei OTA data simulation.
+Copyright: Related data copyright belongs to Huawei all.
+
+1. Please connect phone and computer to the same router.
+2. Please turn off your firewall or allow them.
+3. Copy firmware to:
+    {{ @echo dirname(dirname(dirname(__FILE__)))."\n"; }}
+4. Then follow the prompts.</textarea>
+</div>
+<div class="buttons">
+    <input type="button" onclick="window.location.href='?step=2'" value="Accept" />
+    <input type="button" onclick="window.location.href='?step=-1'" value="Reject" />
+</div>
+{{ @VI('hwota/_footer'); }}

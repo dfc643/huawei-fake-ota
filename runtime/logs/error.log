@@ -1,0 +1,174 @@
+[Fri Mar 31 18:07:21.369594 2017] [core:warn] [pid 8620:tid 588] AH00098: pid file D:/Backup/Desktop/HwOUC-v2/testonly/runtime/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Mar 31 18:07:21.447694 2017] [mpm_winnt:notice] [pid 8620:tid 588] AH00455: Apache/2.4.6 (Win32) OpenSSL/1.0.1e PHP/5.2.17 configured -- resuming normal operations
+[Fri Mar 31 18:07:21.447694 2017] [mpm_winnt:notice] [pid 8620:tid 588] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
+[Fri Mar 31 18:07:21.447694 2017] [core:notice] [pid 8620:tid 588] AH00094: Command line: 'bin\\HwFakeOta.exe -d D:/Backup/Desktop/HwOUC-v2/testonly/runtime'
+[Fri Mar 31 18:07:21.463318 2017] [mpm_winnt:notice] [pid 8620:tid 588] AH00418: Parent: Created child process 8840
+[Fri Mar 31 18:07:22.445289 2017] [mpm_winnt:notice] [pid 8840:tid 560] AH00354: Child: Starting 128 worker threads.
+A duplicate file name exists, or the file
+cannot be found.
+[Fri Mar 31 18:25:46.046031 2017] [core:warn] [pid 528:tid 568] AH00098: pid file D:/Backup/Desktop/HwOUC-v2/testonly/runtime/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Mar 31 18:25:46.124129 2017] [mpm_winnt:notice] [pid 528:tid 568] AH00455: Apache/2.4.6 (Win32) OpenSSL/1.0.1e PHP/5.2.17 configured -- resuming normal operations
+[Fri Mar 31 18:25:46.124129 2017] [mpm_winnt:notice] [pid 528:tid 568] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
+[Fri Mar 31 18:25:46.124129 2017] [core:notice] [pid 528:tid 568] AH00094: Command line: 'bin\\HwFakeOta.exe -d D:/Backup/Desktop/HwOUC-v2/testonly/runtime'
+[Fri Mar 31 18:25:46.171005 2017] [mpm_winnt:notice] [pid 528:tid 568] AH00418: Parent: Created child process 3196
+[Fri Mar 31 18:25:47.030478 2017] [mpm_winnt:notice] [pid 3196:tid 616] AH00354: Child: Starting 128 worker threads.
+A duplicate file name exists, or the file
+cannot be found.
+[Fri Mar 31 18:34:12.086934 2017] [core:warn] [pid 7376:tid 556] AH00098: pid file D:/Backup/Desktop/HwOUC-v2/testonly/runtime/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Mar 31 18:34:12.128954 2017] [mpm_winnt:notice] [pid 7376:tid 556] AH00455: Apache/2.4.6 (Win32) OpenSSL/1.0.1e PHP/5.2.17 configured -- resuming normal operations
+[Fri Mar 31 18:34:12.128954 2017] [mpm_winnt:notice] [pid 7376:tid 556] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
+[Fri Mar 31 18:34:12.128954 2017] [core:notice] [pid 7376:tid 556] AH00094: Command line: 'bin\\HwFakeOta.exe -d D:/Backup/Desktop/HwOUC-v2/testonly/runtime'
+[Fri Mar 31 18:34:12.148753 2017] [mpm_winnt:notice] [pid 7376:tid 556] AH00418: Parent: Created child process 9960
+[Fri Mar 31 18:34:12.978350 2017] [mpm_winnt:notice] [pid 9960:tid 592] AH00354: Child: Starting 128 worker threads.
+A duplicate file name exists, or the file
+cannot be found.
+[Fri Mar 31 18:44:07.245036 2017] [core:warn] [pid 11136:tid 576] AH00098: pid file D:/Backup/Desktop/HwOUC-v2/testonly/runtime/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Mar 31 18:44:07.338716 2017] [mpm_winnt:notice] [pid 11136:tid 576] AH00455: Apache/2.4.6 (Win32) OpenSSL/1.0.1e PHP/5.4.17 configured -- resuming normal operations
+[Fri Mar 31 18:44:07.338716 2017] [mpm_winnt:notice] [pid 11136:tid 576] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
+[Fri Mar 31 18:44:07.338716 2017] [core:notice] [pid 11136:tid 576] AH00094: Command line: 'bin\\HwFakeOta.exe -d D:/Backup/Desktop/HwOUC-v2/testonly/runtime'
+[Fri Mar 31 18:44:07.791890 2017] [mpm_winnt:notice] [pid 11136:tid 576] AH00418: Parent: Created child process 9688
+[Fri Mar 31 18:44:08.691475 2017] [mpm_winnt:notice] [pid 9688:tid 636] AH00354: Child: Starting 128 worker threads.
+A duplicate file name exists, or the file
+cannot be found.
+[Fri Mar 31 18:47:06.519582 2017] [core:warn] [pid 4864:tid 480] AH00098: pid file D:/Backup/Desktop/HwOUC-v2/testonly/runtime/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+PHP Warning:  PHP Startup: Unable to load dynamic library '.\\ext\\php_curl.dll' - The operating system cannot run %1.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '.\\ext\\php_openssl.dll' - The operating system cannot run %1.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: soap: Unable to initialize module\nModule compiled with module API=20151012\nPHP    compiled with module API=20100525\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: sockets: Unable to initialize module\nModule compiled with module API=20151012\nPHP    compiled with module API=20100525\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: sqlite3: Unable to initialize module\nModule compiled with module API=20151012\nPHP    compiled with module API=20100525\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: tidy: Unable to initialize module\nModule compiled with module API=20151012\nPHP    compiled with module API=20100525\nThese options need to match\n in Unknown on line 0
+[Fri Mar 31 18:47:29.108020 2017] [mpm_winnt:notice] [pid 4864:tid 480] AH00455: Apache/2.4.6 (Win32) OpenSSL/1.0.1e PHP/5.4.17 configured -- resuming normal operations
+[Fri Mar 31 18:47:29.108020 2017] [mpm_winnt:notice] [pid 4864:tid 480] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
+[Fri Mar 31 18:47:29.108020 2017] [core:notice] [pid 4864:tid 480] AH00094: Command line: 'bin\\HwFakeOta.exe -d D:/Backup/Desktop/HwOUC-v2/testonly/runtime'
+[Fri Mar 31 18:47:29.654923 2017] [mpm_winnt:notice] [pid 4864:tid 480] AH00418: Parent: Created child process 6064
+PHP Warning:  PHP Startup: Unable to load dynamic library '.\\ext\\php_curl.dll' - The operating system cannot run %1.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '.\\ext\\php_openssl.dll' - The operating system cannot run %1.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: soap: Unable to initialize module\nModule compiled with module API=20151012\nPHP    compiled with module API=20100525\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: sockets: Unable to initialize module\nModule compiled with module API=20151012\nPHP    compiled with module API=20100525\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: sqlite3: Unable to initialize module\nModule compiled with module API=20151012\nPHP    compiled with module API=20100525\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: tidy: Unable to initialize module\nModule compiled with module API=20151012\nPHP    compiled with module API=20100525\nThese options need to match\n in Unknown on line 0
+[Fri Mar 31 18:47:44.055998 2017] [mpm_winnt:notice] [pid 6064:tid 596] AH00354: Child: Starting 128 worker threads.
+A duplicate file name exists, or the file
+cannot be found.
+[Fri Mar 31 18:48:33.280479 2017] [core:warn] [pid 10384:tid 580] AH00098: pid file D:/Backup/Desktop/HwOUC-v2/testonly/runtime/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+PHP Warning:  PHP Startup: Unable to load dynamic library '.\\ext\\php_curl.dll' - The operating system cannot run %1.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '.\\ext\\php_openssl.dll' - The operating system cannot run %1.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: soap: Unable to initialize module\nModule compiled with module API=20151012\nPHP    compiled with module API=20100525\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: sockets: Unable to initialize module\nModule compiled with module API=20151012\nPHP    compiled with module API=20100525\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: sqlite3: Unable to initialize module\nModule compiled with module API=20151012\nPHP    compiled with module API=20100525\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: tidy: Unable to initialize module\nModule compiled with module API=20151012\nPHP    compiled with module API=20100525\nThese options need to match\n in Unknown on line 0
+[Fri Mar 31 18:49:02.935750 2017] [mpm_winnt:notice] [pid 10384:tid 580] AH00455: Apache/2.4.6 (Win32) OpenSSL/1.0.1e PHP/5.4.17 configured -- resuming normal operations
+[Fri Mar 31 18:49:02.935750 2017] [mpm_winnt:notice] [pid 10384:tid 580] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
+[Fri Mar 31 18:49:02.935750 2017] [core:notice] [pid 10384:tid 580] AH00094: Command line: 'bin\\HwFakeOta.exe -d D:/Backup/Desktop/HwOUC-v2/testonly/runtime'
+[Fri Mar 31 18:49:02.966981 2017] [mpm_winnt:notice] [pid 10384:tid 580] AH00418: Parent: Created child process 9708
+PHP Warning:  PHP Startup: Unable to load dynamic library '.\\ext\\php_curl.dll' - The operating system cannot run %1.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '.\\ext\\php_openssl.dll' - The operating system cannot run %1.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: soap: Unable to initialize module\nModule compiled with module API=20151012\nPHP    compiled with module API=20100525\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: sockets: Unable to initialize module\nModule compiled with module API=20151012\nPHP    compiled with module API=20100525\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: sqlite3: Unable to initialize module\nModule compiled with module API=20151012\nPHP    compiled with module API=20100525\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: tidy: Unable to initialize module\nModule compiled with module API=20151012\nPHP    compiled with module API=20100525\nThese options need to match\n in Unknown on line 0
+[Fri Mar 31 18:49:08.155371 2017] [mpm_winnt:notice] [pid 9708:tid 576] AH00354: Child: Starting 128 worker threads.
+A duplicate file name exists, or the file
+cannot be found.
+[Fri Mar 31 18:49:43.874752 2017] [core:warn] [pid 5900:tid 596] AH00098: pid file D:/Backup/Desktop/HwOUC-v2/testonly/runtime/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+PHP Warning:  PHP Startup: soap: Unable to initialize module\nModule compiled with module API=20151012\nPHP    compiled with module API=20100525\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: sockets: Unable to initialize module\nModule compiled with module API=20151012\nPHP    compiled with module API=20100525\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: sqlite3: Unable to initialize module\nModule compiled with module API=20151012\nPHP    compiled with module API=20100525\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: tidy: Unable to initialize module\nModule compiled with module API=20151012\nPHP    compiled with module API=20100525\nThese options need to match\n in Unknown on line 0
+[Fri Mar 31 18:49:51.328631 2017] [mpm_winnt:notice] [pid 5900:tid 596] AH00455: Apache/2.4.6 (Win32) OpenSSL/1.0.1e PHP/5.4.17 configured -- resuming normal operations
+[Fri Mar 31 18:49:51.328631 2017] [mpm_winnt:notice] [pid 5900:tid 596] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
+[Fri Mar 31 18:49:51.328631 2017] [core:notice] [pid 5900:tid 596] AH00094: Command line: 'bin\\HwFakeOta.exe -d D:/Backup/Desktop/HwOUC-v2/testonly/runtime'
+[Fri Mar 31 18:49:51.359883 2017] [mpm_winnt:notice] [pid 5900:tid 596] AH00418: Parent: Created child process 6868
+PHP Warning:  PHP Startup: soap: Unable to initialize module\nModule compiled with module API=20151012\nPHP    compiled with module API=20100525\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: sockets: Unable to initialize module\nModule compiled with module API=20151012\nPHP    compiled with module API=20100525\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: sqlite3: Unable to initialize module\nModule compiled with module API=20151012\nPHP    compiled with module API=20100525\nThese options need to match\n in Unknown on line 0
+PHP Warning:  PHP Startup: tidy: Unable to initialize module\nModule compiled with module API=20151012\nPHP    compiled with module API=20100525\nThese options need to match\n in Unknown on line 0
+[Fri Mar 31 18:49:53.344462 2017] [mpm_winnt:notice] [pid 6868:tid 468] AH00354: Child: Starting 128 worker threads.
+A duplicate file name exists, or the file
+cannot be found.
+[Fri Mar 31 18:52:48.199229 2017] [core:warn] [pid 7544:tid 604] AH00098: pid file D:/Backup/Desktop/HwOUC-v2/testonly/runtime/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/USBWebserver v8.6\\php\\ext\\php_curl.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/USBWebserver v8.6\\php\\ext\\php_gd2.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/USBWebserver v8.6\\php\\ext\\php_imap.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/USBWebserver v8.6\\php\\ext\\php_mbstring.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/USBWebserver v8.6\\php\\ext\\php_exif.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/USBWebserver v8.6\\php\\ext\\php_mysql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/USBWebserver v8.6\\php\\ext\\php_mysqli.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/USBWebserver v8.6\\php\\ext\\php_openssl.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/USBWebserver v8.6\\php\\ext\\php_pdo_mysql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/USBWebserver v8.6\\php\\ext\\php_pdo_pgsql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/USBWebserver v8.6\\php\\ext\\php_pdo_sqlite.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/USBWebserver v8.6\\php\\ext\\php_pgsql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/USBWebserver v8.6\\php\\ext\\php_soap.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/USBWebserver v8.6\\php\\ext\\php_sockets.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/USBWebserver v8.6\\php\\ext\\php_sqlite3.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/USBWebserver v8.6\\php\\ext\\php_tidy.dll' - The specified module could not be found.\r\n in Unknown on line 0
+[Fri Mar 31 18:52:57.387615 2017] [mpm_winnt:notice] [pid 7544:tid 604] AH00455: Apache/2.4.6 (Win32) OpenSSL/1.0.1e PHP/5.4.17 configured -- resuming normal operations
+[Fri Mar 31 18:52:57.387615 2017] [mpm_winnt:notice] [pid 7544:tid 604] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
+[Fri Mar 31 18:52:57.387615 2017] [core:notice] [pid 7544:tid 604] AH00094: Command line: 'bin\\HwFakeOta.exe -d D:/Backup/Desktop/HwOUC-v2/testonly/runtime'
+[Fri Mar 31 18:52:57.418865 2017] [mpm_winnt:notice] [pid 7544:tid 604] AH00418: Parent: Created child process 11172
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/USBWebserver v8.6\\php\\ext\\php_curl.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/USBWebserver v8.6\\php\\ext\\php_gd2.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/USBWebserver v8.6\\php\\ext\\php_imap.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/USBWebserver v8.6\\php\\ext\\php_mbstring.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/USBWebserver v8.6\\php\\ext\\php_exif.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/USBWebserver v8.6\\php\\ext\\php_mysql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/USBWebserver v8.6\\php\\ext\\php_mysqli.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/USBWebserver v8.6\\php\\ext\\php_openssl.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/USBWebserver v8.6\\php\\ext\\php_pdo_mysql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/USBWebserver v8.6\\php\\ext\\php_pdo_pgsql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/USBWebserver v8.6\\php\\ext\\php_pdo_sqlite.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/USBWebserver v8.6\\php\\ext\\php_pgsql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/USBWebserver v8.6\\php\\ext\\php_soap.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/USBWebserver v8.6\\php\\ext\\php_sockets.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/USBWebserver v8.6\\php\\ext\\php_sqlite3.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'D:/USBWebserver v8.6\\php\\ext\\php_tidy.dll' - The specified module could not be found.\r\n in Unknown on line 0
+[Fri Mar 31 18:53:01.335238 2017] [mpm_winnt:notice] [pid 11172:tid 572] AH00354: Child: Starting 128 worker threads.
+A duplicate file name exists, or the file
+cannot be found.
+[Fri Mar 31 18:55:45.030378 2017] [core:warn] [pid 3060:tid 580] AH00098: pid file D:/Backup/Desktop/HwOUC-v2/testonly/runtime/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+PHP Warning:  PHP Startup: Unable to load dynamic library 'ext\\php_curl.dll' - The operating system cannot run %1.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'ext\\php_openssl.dll' - The operating system cannot run %1.\r\n in Unknown on line 0
+[Fri Mar 31 18:55:55.856886 2017] [mpm_winnt:notice] [pid 3060:tid 580] AH00455: Apache/2.4.6 (Win32) OpenSSL/1.0.1e PHP/5.4.17 configured -- resuming normal operations
+[Fri Mar 31 18:55:55.856886 2017] [mpm_winnt:notice] [pid 3060:tid 580] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
+[Fri Mar 31 18:55:55.856886 2017] [core:notice] [pid 3060:tid 580] AH00094: Command line: 'bin\\HwFakeOta.exe -d D:/Backup/Desktop/HwOUC-v2/testonly/runtime'
+[Fri Mar 31 18:55:55.884524 2017] [mpm_winnt:notice] [pid 3060:tid 580] AH00418: Parent: Created child process 6868
+PHP Warning:  PHP Startup: Unable to load dynamic library 'ext\\php_curl.dll' - The operating system cannot run %1.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'ext\\php_openssl.dll' - The operating system cannot run %1.\r\n in Unknown on line 0
+[Fri Mar 31 18:55:59.002117 2017] [mpm_winnt:notice] [pid 6868:tid 564] AH00354: Child: Starting 128 worker threads.
+A duplicate file name exists, or the file
+cannot be found.
+[Fri Mar 31 18:58:24.314845 2017] [core:warn] [pid 7920:tid 640] AH00098: pid file D:/Backup/Desktop/HwOUC-v2/testonly/runtime/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Mar 31 18:58:24.378103 2017] [mpm_winnt:notice] [pid 7920:tid 640] AH00455: Apache/2.4.6 (Win32) OpenSSL/1.0.1e PHP/5.4.17 configured -- resuming normal operations
+[Fri Mar 31 18:58:24.378103 2017] [mpm_winnt:notice] [pid 7920:tid 640] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
+[Fri Mar 31 18:58:24.378103 2017] [core:notice] [pid 7920:tid 640] AH00094: Command line: 'bin\\HwFakeOta.exe -d D:/Backup/Desktop/HwOUC-v2/testonly/runtime'
+[Fri Mar 31 18:58:24.399048 2017] [mpm_winnt:notice] [pid 7920:tid 640] AH00418: Parent: Created child process 9436
+[Fri Mar 31 18:58:25.132252 2017] [mpm_winnt:notice] [pid 9436:tid 604] AH00354: Child: Starting 128 worker threads.
+A duplicate file name exists, or the file
+cannot be found.
+[Fri Mar 31 19:11:31.739394 2017] [core:warn] [pid 10908:tid 600] AH00098: pid file D:/Backup/Desktop/HwOUC-v2/testonly/runtime/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Mar 31 19:11:31.848700 2017] [mpm_winnt:notice] [pid 10908:tid 600] AH00455: Apache/2.4.6 (Win32) OpenSSL/1.0.1e PHP/5.4.17 configured -- resuming normal operations
+[Fri Mar 31 19:11:31.848700 2017] [mpm_winnt:notice] [pid 10908:tid 600] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
+[Fri Mar 31 19:11:31.848700 2017] [core:notice] [pid 10908:tid 600] AH00094: Command line: 'bin\\HwFakeOta.exe -d D:/Backup/Desktop/HwOUC-v2/testonly/runtime'
+[Fri Mar 31 19:11:31.879954 2017] [mpm_winnt:notice] [pid 10908:tid 600] AH00418: Parent: Created child process 2352
+[Fri Mar 31 19:11:32.661287 2017] [mpm_winnt:notice] [pid 2352:tid 528] AH00354: Child: Starting 128 worker threads.
+A duplicate file name exists, or the file
+cannot be found.
+[Fri Mar 31 19:14:31.863564 2017] [core:warn] [pid 10512:tid 588] AH00098: pid file D:/Backup/Desktop/HwOUC-v2/testonly/runtime/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Mar 31 19:14:31.894754 2017] [mpm_winnt:notice] [pid 10512:tid 588] AH00455: Apache/2.4.6 (Win32) OpenSSL/1.0.1e PHP/5.4.17 configured -- resuming normal operations
+[Fri Mar 31 19:14:31.894754 2017] [mpm_winnt:notice] [pid 10512:tid 588] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
+[Fri Mar 31 19:14:31.894754 2017] [core:notice] [pid 10512:tid 588] AH00094: Command line: 'bin\\HwFakeOta.exe -d D:/Backup/Desktop/HwOUC-v2/testonly/runtime'
+[Fri Mar 31 19:14:31.910357 2017] [mpm_winnt:notice] [pid 10512:tid 588] AH00418: Parent: Created child process 2136
+[Fri Mar 31 19:14:32.972968 2017] [mpm_winnt:notice] [pid 2136:tid 708] AH00354: Child: Starting 128 worker threads.
+[Fri Mar 31 19:41:35.268347 2017] [core:warn] [pid 4596:tid 576] AH00098: pid file D:/Backup/Desktop/HwOUC-v2/testonly/runtime/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Mar 31 19:41:35.374633 2017] [mpm_winnt:notice] [pid 4596:tid 576] AH00455: Apache/2.4.6 (Win32) OpenSSL/1.0.1e PHP/5.4.17 configured -- resuming normal operations
+[Fri Mar 31 19:41:35.375295 2017] [mpm_winnt:notice] [pid 4596:tid 576] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
+[Fri Mar 31 19:41:35.375295 2017] [core:notice] [pid 4596:tid 576] AH00094: Command line: 'bin\\HwFakeOta.exe -d D:/Backup/Desktop/HwOUC-v2/testonly/runtime'
+[Fri Mar 31 19:41:35.402505 2017] [mpm_winnt:notice] [pid 4596:tid 576] AH00418: Parent: Created child process 9048
+[Fri Mar 31 19:41:36.275425 2017] [mpm_winnt:notice] [pid 9048:tid 552] AH00354: Child: Starting 128 worker threads.
+[Fri Mar 31 19:42:00.812735 2017] [core:warn] [pid 5508:tid 620] AH00098: pid file D:/Backup/Desktop/HwOUC-v2/testonly/runtime/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Mar 31 19:42:00.964099 2017] [mpm_winnt:notice] [pid 5508:tid 620] AH00455: Apache/2.4.6 (Win32) OpenSSL/1.0.1e PHP/5.4.17 configured -- resuming normal operations
+[Fri Mar 31 19:42:00.964099 2017] [mpm_winnt:notice] [pid 5508:tid 620] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
+[Fri Mar 31 19:42:00.964099 2017] [core:notice] [pid 5508:tid 620] AH00094: Command line: 'bin\\HwFakeOta.exe -d D:/Backup/Desktop/HwOUC-v2/testonly/runtime'
+[Fri Mar 31 19:42:00.983442 2017] [mpm_winnt:notice] [pid 5508:tid 620] AH00418: Parent: Created child process 9960
+[Fri Mar 31 19:42:01.777181 2017] [mpm_winnt:notice] [pid 9960:tid 316] AH00354: Child: Starting 128 worker threads.

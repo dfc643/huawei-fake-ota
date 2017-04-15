@@ -1,0 +1,57 @@
+#main {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#main .leftFrame {
+    float: left;
+    width: 180px;
+    height: 100%;
+    background: #00aafc;
+    color: #fff;
+    font-size: 28px;
+    line-height: 105%;
+    text-align: right;
+    padding: 10px 15px;
+}
+
+#main .rightFrame {
+    float: left;
+    width: 400px;
+    padding: 10px;
+}
+
+#main .rightFrame .title {
+    font-size: 20px;
+    color: #00aafc;
+    margin-bottom: 10px;
+    margin-top: 3px;
+}
+
+#main .rightFrame .content {
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+#main .rightFrame .buttons {
+    position: absolute;
+    bottom: 0;
+    text-align: right;
+    width: 380px;
+    margin-bottom: 12px;
+    padding-top: 10px;
+    border-top: 1px solid #c5c5c5;
+}
+
+#main .rightFrame .buttons button {
+    margin-left: 5px;
+}
+
+#main .rightFrame .content textarea {
+    width: 380px;
+    height: 175px;
+    font-size: 11px;
+    font-family: Consolas;
+    margin-top: 5px;
+}

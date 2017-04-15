@@ -1,0 +1,15 @@
+{{ @VI('hwota/_header', array('title'=>'{{ $title }}')); }}
+<div class="title">请在手机中设置</div>
+<div class="content">
+    <p>请在手机中设置如下选项:</p>
+    <ul>
+        <li>DNS 1: {{ $localip }}</li>
+        <li>DNS 2: {{ $localip }}</li>
+        <li>在手机中检查更新</li>
+    </ul>
+    <p style="color:red; font-weight: bold;">在更新完成前请不要关闭本窗口 !!!</p>
+</div>
+<div class="buttons">
+    <input type="button" onclick="window.location.href='?step=-1'" value="我已完成升级"/>
+</div>
+{{ @VI('hwota/_footer'); }}
